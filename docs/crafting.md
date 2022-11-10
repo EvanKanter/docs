@@ -22,4 +22,6 @@ When used in an axe or pickaxe you get +100% resource gathering
 ###
 Items
 Handle and axehead
-Rune crafting or jewel crafting to enhance 
+Rune crafting or jewel crafting to enhance
+
+This is just a test.
