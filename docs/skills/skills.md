@@ -2,19 +2,123 @@
 sidebar_position: 1
 ---
 
-# A Skills based game
+***
+The Neon Desert is a skills based game. Because there are no races or classes, each character may develop whichever skills you wish, offering maximum customization.
 
-The Neon Desert is a skills based game. You are not locked into Races or Classes. Each character may be customized with whichever skills you wish, offering maximum customization.
+## Mechanics
 
-Each character has an initial skill cap of 700 skill points. Each individual skill has an initial soft skill cap of 100 which may be raised by meeting certain criteria via the Recompile system.
+Skills are action-based. Each skill operates at a rate of 1 action per minute, or 60 actions per hour. Skills are gained in increments of 0.1 skill points, at a rate of 10 actions per 0.1 skill point gained. At a rate of 1 action per minute (60 actions per hour), you will gain 0.6 skill points per hour.
 
-Skills are action-based. Each skill operates at a rate of 1 action per minute, or 60 actions per hour.
+## Skill Caps
 
-Skills are gained in increments of 0.1 skill points. Skills are gained at a rate of 10 actions per 0.1 skill point gained. At a rate of 1 action per minute (60 actions per hour), you will gain 0.6 skill points per hour.
+### Individual Skill Caps
 
-At this rate, you will gain 14.4 skill per day, and it will take you 6.94 days to reach Slvl 100 in a particular skill.
+Each individual skill starts with an initial cap of 100 skill points, which may eventually be raised via the Recompile system.
 
-At this rate, it would take you just under 50 days to max a character’s skill (7 skills at Slvl 100).
+Skills may only be raised to their current individual cap. Though skills are usable once they have reached their cap, a character will not gain further skill points in any maxed skill until its cap has been raised.
 
-As you will see, this is only the beginning of your character’s journey. Individual skill caps may be increased via the Recompile system.
+### Maximum Skill Points
+
+Each character has a soft cap on maximum total skill points of 700. It is important to note however that any skill points above 100 in an individual skill DO NOT count towards the soft cap of 700 skill points.
+
+### Example 1: Skill Caps Unreached
+:::note Skill Caps Unreached
+
+In the following example, the character has focused on 7 skills and has not yet raised the cap of any individual skill nor hit the cap on maximum skill points.
+
+:::
+
+| Skill                        | Skill Level | Skill Cap |
+|------------------------------|-------------|-----------|
+| Woodcutting                  | 92.6        | 100       |
+| Mining                       | 57.8        | 100       |
+| Exploration                  | 90.1        | 100       |
+| Cartography                  | 86.0        | 100       |
+| Archery                      | 42.7        | 100       |
+| Bowcraft                     | 54.8        | 100       |
+| Stealth                      | 84.3        | 100       |
+| **Total Skill Points / Cap** | **508.3**   | **700**   |
+
+### Example 2: Maximum Skill Point Cap Unreached / Individual Skill Cap Raised
+
+:::note Maximum Skill Point Cap Unreached / Individual Skill Cap Raised
+
+In the following example, the character has focused on 7 skills and has raised the cap of Woodcutting. Please note that the 2.6 skill points over 100 in the Woodcutting skill **DO NOT** count toward the maximum total skill point cap of 700.
+
+:::
+
+| Skill                        | Skill Level | Skill Cap |
+|------------------------------|-------------|-----------|
+| Woodcutting                  | **102.6**   | **_110_** |
+| Mining                       | 57.8        | 100       |
+| Exploration                  | 90.1        | 100       |
+| Cartography                  | 86.0        | 100       |
+| Archery                      | 42.7        | 100       |
+| Bowcraft                     | 54.8        | 100       |
+| Stealth                      | 84.3        | 100       |
+| **Total Skill Points / Cap** | **515.7**   | **700**   |
+
+### Example 3: Maximum Skill Point Cap Reached
+
+:::note Maximum Skill Point Cap Reached
+
+In the following example, the character has focused on 9 skills and has raised the cap of Woodcutting. Please note that the 2.6 skill points over 100 in the Woodcutting skill **DO NOT** count toward the maximum total skill point cap of 700. Because the maximum total skill point cap of 700 has been reached, *the character may gain no further skill points in any skill aside from Woodcutting* who's skill points over 100 DO NOT count toward the maximum total skill point cap of 700. 
+
+:::
+
+| Skill                        | Skill Level | Skill Cap |
+|------------------------------|-------------|-----------|
+| Woodcutting                  | **102.6**   | **_110_** |
+| Mining                       | 57.8        | 100       |
+| Exploration                  | 90.1        | 100       |
+| Cartography                  | 86.0        | 100       |
+| Archery                      | 42.7        | 100       |
+| Bowcraft                     | 54.8        | 100       |
+| Stealth                      | 84.3        | 100       |
+| Healing                      | 100.0       | 100       |
+| Tracking                     | 84.3        | 100       |
+| **Total Skill Points / Cap** | **702.6**   | **700**   |
+
+## Skill Gain Rates
+
+As mentioned in the Mechanics section above, skills are action-based. Each skill operates at a rate of 1 action per minute, or 60 actions per hour. Skills are gained in increments of 0.1 skill points, at a rate of 10 actions per 0.1 skill point gained. At a rate of 1 action per minute (60 actions per hour), you will gain 0.6 skill points per hour.
+
+Further, at this rate, you will gain 14.4 skill per day, and it will take you 6.94 days to reach level 100 in a particular skill
+
+### Example 1: Time To Reach Skill Level (Recompile Unfactored)
+
+:::caution Recompile Unfactored!!!
+
+Note that the following time table **DOES NOT** factor in Recompiles, wich you may [read more about here](./Recompile.md). This table illustrates the requisite skilling time to reach a particular skill level starting from 0.0 skill points.
+
+:::
+
+| Skill   Level (Slvl) 	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Lvl 	| Time to Reach   Skill Lvl (Hours) 	| Time to Reach   Skill Lvl (Days) 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|
+| 50 	| 10 	| 5000 	| 83.33 	| 3.47 	|
+| 100 	| 10 	| 10000 	| 166.67 	| 6.94 	|
+| 150 	| 10 	| 15000 	| 250.00 	| 10.42 	|
+| 200 	| 10 	| 20000 	| 333.33 	| 13.89 	|
+
+### Example 2: Time To Reach Skill Level (Recompiles Factored)
+
+:::note Recompiles Factored
+
+In the below table, requisite skilling time to reach a particular skill level is illustrated with Recompiles Factored. You may [read more about the Recompile system here](./Recompile.md).
+
+:::
+
+| Skill   Level (Slvl) 	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Lvl 	| Time to Reach   Skill Lvl (Hours) 	| Time to Reach   Skill Lvl (Days) 	| Time to Reach   Skill Lvl with Recompiles factored (Days) 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
+| 100 	| 10 	| 10000 	| 166.67 	| 6.94 	| 6.94 	|
+| 110 	| 10 	| 11000 	| 183.33 	| 7.64 	| 14.58 	|
+| 120 	| 10 	| 12000 	| 200.00 	| 8.33 	| 22.92 	|
+| 130 	| 10 	| 13000 	| 216.67 	| 9.03 	| 31.94 	|
+| 140 	| 10 	| 14000 	| 233.33 	| 9.72 	| 41.67 	|
+| 150 	| 10 	| 15000 	| 250.00 	| 10.42 	| 52.08 	|
+| 160 	| 10 	| 16000 	| 266.67 	| 11.11 	| 63.19 	|
+| 170 	| 10 	| 17000 	| 283.33 	| 11.81 	| 75.00 	|
+| 180 	| 10 	| 18000 	| 300.00 	| 12.50 	| 87.50 	|
+| 190 	| 10 	| 19000 	| 316.67 	| 13.19 	| 100.69 	|
+| 200 	| 10 	| 20000 	| 333.33 	| 13.89 	| 114.58 	|
 

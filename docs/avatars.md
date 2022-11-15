@@ -12,4 +12,4 @@ Avatars are the main way to interact with The Neon Desert. They are sent on expe
 
 ## Cost
 
-New blank Avatars cost 1 NEON to create and contain lvl 1 in all skills and have no bonuses. New Avatars can implant [Souls](souls.md) gained during [Recompile](recompile.md) to carry down bonuses and abilities.
+New blank Avatars cost 1 NEON to create and contain lvl 1 in all skills and have no bonuses. New Avatars can implant [Souls](souls.md) gained during [Recompile](Recompile.md) to carry down bonuses and abilities.
