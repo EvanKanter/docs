@@ -3,7 +3,25 @@ sidebar_position: 1
 ---
 
 ***
-The Neon Desert is a skills based game. Because there are no races or classes, each character may develop whichever skills you wish, offering maximum customization.
+_**Mother:** Look at them._  
+_**Programmer:** But... how will they survive, Mother?_  
+_**Mother:** They must be skillful._  
+<!---Must learn how to center align the above dialogue. Tried <center></center>, <p align="center"></p>, <div align="center"></div>, <div style="text-align: center;" markdown="1"></div>, -->
+## Overview
+
+TND is a ‘skills based’ game. Your skills are how you interact with the world. As you develop your skills they will empower you to gather more valuable resources, to craft powerful items like weapons and armor, to discover greater locations like Wild Forests and Wild Mines, Encampments and Dungeons, and to defeat your enemies and plunder their treasure.
+
+### Humble Beginnings
+
+Upon entering TND you will begin by Foraging in the wilderness for basic supplies. From these foraged resources you will create the basic tools with which to begin your journey.
+
+### Growing Your Skills
+
+Your first and immediately actionable skills will be Woodcutting and Mining. Using your basic tools, in the Cedar Forest and Copper Mine you will harvest the resources necessary to Craft new and more durable tools with which to gather even more valuable resources as you develop your skills.
+
+### Combat and Adventuring
+
+When you are ready, you will adventure into the Goblin Encampment where you will develop your Combat skills and claim any treasure you may find as reward for your courage. Weild a Sword and Shiled to raise Swordsmanship and Parrying, or heft a Two-Handed Mace to raise your Macing, or equip a Bow and Arrows to raise your Archery.
 
 ## Mechanics
 
