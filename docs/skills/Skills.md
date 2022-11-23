@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 15
 ---
 
 ***
@@ -22,6 +22,24 @@ Your first and immediately actionable skills will be Woodcutting and Mining. Usi
 ### Combat and Adventuring
 
 When you are ready, you will adventure into the Goblin Encampment where you will develop your Combat skills and claim any treasure you may find as reward for your courage. Weild a Sword and Shiled to raise Swordsmanship and Parrying, or heft a Two-Handed Mace to raise your Macing, or equip a Bow and Arrows to raise your Archery.
+
+### Available Skills
+
+| Skill 	| Description 	|
+|---	|---	|
+| [Foraging](Foraging.md) 	| Forage in the Wilderness for basic supplies. 	|
+| [Crafting](Crafting.md) 	| Craft upgraded tools and beginner weapons and armor. 	|
+| [Woodcutting](Woodcutting.md) 	| Gather Wood in various Forests. 	|
+| [Mining](Mining.md) 	| Gather Ore in various Mines. 	|
+| [Exploration](Exploration.md) 	| Explore and discover new locations. 	|
+| [Cartography](Crafting.md) 	| Read Maps to find your way and create your own to sell on the Marketplace. 	|
+| Smithing 	| Smelt your ore into ingots and forge powerful tools, weapons, and armor. 	|
+| Bowcraft & Fletching 	| Create deadly Bows and Arrows to hunt your enemies. 	|
+| Swordsmanship 	| Wield razor sharp bladed weapons to slice through your enemies. 	|
+| Macing 	| Heft pulverizing blunt weapons to crush your enemies. 	|
+| Parrying 	| Use a Shield to defend yourself against Melee, Ranged, and Magical attacks. 	|
+| Archery 	| Aim a bow let Arrows fly into the hearts of your enemies. 	|
+| Magery 	| Cast powerful magics to heal and buff yourself and to obliterate your enemies. 	|
 
 ## Mechanics
 
