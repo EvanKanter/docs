@@ -2,35 +2,24 @@
 sidebar_position: 3
 ---
 
-# Crafting
+***
+_**Programmer:** They will make things, Mother?_  
+_**Mother:** Yes… and not only their own misery. They shall make many things._
 
-Combine resources to form items and tools, at the Crafting Station
-May cost small amount of NEON
-Doesn't require any specialized tools
+## Overview
 
-## Progression
+While Crafting may become a traditional Skill in the future, at launch Crafting is an immediately actionable ability which will allow you to create your first items and tools in The Neon Desert, and will NOT be based on Skill Points.
 
-### lvl 1
+## The Crafting Table
 
-- **lashings**
-  process _plant fibers_ to form short lengths of _lashings_
-- **axe head**
-  shape _stones_ into stone _axe heads_
-- **shaft**
-  cut _sticks_ to form _shafts_ to use in tools and weapons
+The Crafting Table allows you to immediately combine your foraged materials into usable items and tools which you will need to continue your journey.
 
-### lvl 10
+#### Item Recipes
 
-- **basic axe**
-  use _lashings_ to bind _axe heads_ to _shafts_
-
-- **simple snare**
-  use _lashings_ and _sticks_ to +
-
-- **spear**
-
-- **deadfall trap**
-
-- **bow**
-
-### lvl 50
+| Item          	| Recipe                      	| Uses                                                                                                  	|
+|---------------	|-----------------------------	|-------------------------------------------------------------------------------------------------------	|
+| Stone Dagger  	| Stones                      	| A humble a brittle weapon to defeat animals and creatures you may encounter while Foraging.           	|
+| Stone Axe     	| Sticks, Stone, Plant Fibers 	| A beginner axe with low durability to chop wood in Forests.                                           	|
+| Stone Pickaxe 	| Sticks, Stone, Plant Fibers 	| A beginner pickaxe with low durability to mine for ore in Mines.                                      	|
+| Leather Sack  	| Pelts, Plant Fibers         	| A bag to increase your carrying capacity, increasing the duration for which you may gather resources. 	|
+| Leather Sling 	| Leather Sack, Leather Sling 	| A humble ranged weapon, useful only during chance encounters with small animals in the Forest.        	|

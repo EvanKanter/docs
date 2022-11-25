@@ -4,9 +4,9 @@ sidebar_position: 15
 
 ***
 _**Mother:** Look at them._  
-_**Programmer:** But... how will they survive, Mother?_  
+_**Programmer:** But, Mother... How will they survive?_  
 _**Mother:** They must be skillful._  
-<!---Must learn how to center align the above dialogue. Tried <center></center>, <p align="center"></p>, <div align="center"></div>, <div style="text-align: center;" markdown="1"></div>, -->
+<!-- TODO Must learn how to center align the above dialogue. Tried <center></center>, <p align="center"></p>, <div align="center"></div>, <div style="text-align: center;" markdown="1"></div>, -->
 ## Overview
 
 TND is a ‘skills based’ game. Your skills are how you interact with the world. As you develop your skills they will empower you to gather more valuable resources, to craft powerful items like weapons and armor, to discover greater locations like Wild Forests and Wild Mines, Encampments and Dungeons, and to defeat your enemies and plunder their treasure.
@@ -23,7 +23,7 @@ Your first and immediately actionable skills will be Woodcutting and Mining. Usi
 
 When you are ready, you will adventure into the Goblin Encampment where you will develop your Combat skills and claim any treasure you may find as reward for your courage. Weild a Sword and Shiled to raise Swordsmanship and Parrying, or heft a Two-Handed Mace to raise your Macing, or equip a Bow and Arrows to raise your Archery.
 
-### Available Skills
+### Available & Upcoming Skills
 
 | Skill 	| Description 	|
 |---	|---	|
@@ -33,17 +33,19 @@ When you are ready, you will adventure into the Goblin Encampment where you will
 | [Mining](Mining.md) 	| Gather Ore in various Mines. 	|
 | [Exploration](Exploration.md) 	| Explore and discover new locations. 	|
 | [Cartography](Crafting.md) 	| Read Maps to find your way and create your own to sell on the Marketplace. 	|
-| Smithing 	| Smelt your ore into ingots and forge powerful tools, weapons, and armor. 	|
-| Bowcraft & Fletching 	| Create deadly Bows and Arrows to hunt your enemies. 	|
-| Swordsmanship 	| Wield razor sharp bladed weapons to slice through your enemies. 	|
-| Macing 	| Heft pulverizing blunt weapons to crush your enemies. 	|
-| Parrying 	| Use a Shield to defend yourself against Melee, Ranged, and Magical attacks. 	|
-| Archery 	| Aim a bow let Arrows fly into the hearts of your enemies. 	|
-| Magery 	| Cast powerful magics to heal and buff yourself and to obliterate your enemies. 	|
+| [Smithing](Smithing.md) (Upcoming) 	| Smelt your ore into ingots and forge powerful tools, weapons, and armor. 	|
+| [Bowcraft & Fletching](Bowcraft_&_Fletching.md) (Upcoming) 	| Create deadly Bows and Arrows to hunt your enemies. 	|
+| [Swordsmanship](Swordsmanship.md) (Upcoming) 	| Wield razor sharp bladed weapons to slice through your enemies. 	|
+| [Macing](Macing.md) (Upcoming) 	| Heft pulverizing blunt weapons to crush your enemies. 	|
+| [Parrying](Parrying.md) (Upcoming) 	| Use a Shield to defend yourself against Melee, Ranged, and Magical attacks. 	|
+| [Archery](Archery.md) (Upcoming) 	| Aim a bow let Arrows fly into the hearts of your enemies. 	|
+| [Magery](Archery.md) (Upcoming) 	| Cast powerful magics to heal and buff yourself and to obliterate your enemies. 	|
 
+***
 ## Mechanics
 
 Skills are action-based. Each skill operates at a rate of 1 action per minute, or 60 actions per hour. Skills are gained in increments of 0.1 skill points, at a rate of 10 actions per 0.1 skill point gained. At a rate of 1 action per minute (60 actions per hour), you will gain 0.6 skill points per hour.
+***
 
 ## Skill Caps
 
@@ -115,6 +117,7 @@ In the following example, the character has focused on 9 skills and has raised t
 | Tracking                     | 84.3        | 100       |
 | **Total Skill Points / Cap** | **702.6**   | **700**   |
 
+***
 ## Skill Gain Rates
 
 As mentioned in the Mechanics section above, skills are action-based. Each skill operates at a rate of 1 action per minute, or 60 actions per hour. Skills are gained in increments of 0.1 skill points, at a rate of 10 actions per 0.1 skill point gained. At a rate of 1 action per minute (60 actions per hour), you will gain 0.6 skill points per hour.

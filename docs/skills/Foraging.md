@@ -2,27 +2,59 @@
 sidebar_position: 2
 ---
 
-# The first activity in The Neon Desert
+***
+> I had never seen her smile before. Mother willed that, “From even the smallest of stones, they must find the means of their own survival or perish.”
+>
+> — _the Programmer - date: Unknown_
 
-Foraging is an activity which is not skill based, but still allows you to procure your first items in The Neon Desert.
+## Overview
 
-Foraging operates on the same Action system as every other skill (1 action per minute). Therefore in 1 hour of foraging you will make 60 attempts to gather resources. Each attempt will result in the gathering of a single item. Therefore, the maximum number of items you may forage in a single hour is 60.
+Foraging is an immediately available and crucial skill which will allow new players to acquire their first items in The Neon Desert.
 
-The first location in which you may forage is called The Wilderness. This is a beginner area with minimal threats.
+Upon entering The Neon Desert, all new players start with nothing but their wits, and must spend time Foraging to obtain the valuable basic resources of Sticks, Stones, Plant Fibers, and Apples.
 
-The possible items which may be foraged in The Wilderness are Sticks, Stones, Plant Fibers, and Apples.
+There is also a percentage chance that while Foraging you may encounter a dangerous threats, in which case you may obtain more rare and valuable items if you are equipped to defend yourself.
 
-Also, there is a percentage change in every forage attempt that you may encounter a Wolf, whereupon if you defeat it you will receive a Wolf Pelt.
+## Forageable Items
 
-There is a 25% chance to receive a specific item (Stick, Stone, Plant Fiber, or Apple) during each foraging attempt. Therefore, after 1 hour (60 foraging attempts), you may receive 15 Sticks, 15 Stones, 15 Plant Fibers, and 15 Apples, as an example. Your item distribution will of course vary probabilistically 
+| Forageable Item 	| Uses                                               	|
+|-----------------	|----------------------------------------------------	|
+| Sticks          	| Stone Axe, Stone Pickaxe                           	|
+| Stones          	| Stone Dagger, Stone Axe, Stone Pickaxe, Sling Ammo 	|
+| Plant Fibers    	| Stone Axe, Stone Pickaxe                           	|
+| Apples          	| Healing                                            	|
+| Pelt            	| Leather Sack, Leather Sling                        	|
 
-During each foraging attempt there is a 1% chance that you will encounter a wolf. A wolf is an animal encounter during which if you are equipped with the requisite weapon (Stone Dagger) you are guaranteed to defeat it and obtain a Wolf Pelt. Upon defeating the wolf, your Stone Dagger will be destroyed. Each Stone Dagger is destroyed upon defeating a wolfe.
+You may learn more about these items and their uses in the [Craftinng](Crafting.md) section.
 
-If you do not have a Stone Dagger equipped, you will fail to defeat the wolf and a random percentage of your foraged materials obtained during this Foraging expedition will be lost.
+## Mechanics
 
-A Stone Dagger is an item which may be crafted for at the Crafting Station with 1 Stone. Therefore, it is advisable that after you forage your first few stones you immediately return to the crafting station to craft a few Stone Daggers. Make sure to return to the crafting table periodically to replenish your stock of Stone Daggers.
+Like all skills in The Neon Desert, Foraging operates on our Skill Action System (SA System). A Skill Action takes 1 minute, therefore during 1 hour of Foraging you will make 60 attemmpts to gather resources.
 
 ## Locations
 
-1. Wilderness
-Sticks, Stones, Plant Fibers, Apples
+Foraging will ultimately become available in many locations throughout The Neon Desert. To begin your journey you will Forage in the beginnger area known as The Wilderness.
+
+### The Wilderness
+
+The wilderness is a beginner location, offering minimal threats and a uniquely high quantity of available resources. This means that unlike many other locations in The Neon Desert, while Foraging in The Wilderness each Action of Foraging (each attempt to gather resources) will be successful.
+
+In 1 hour of Foraging in The Wilderness you will acquire 60 items.
+
+During each succesfull Action of Foraging in The Wilderness you have a 25% chance to find either Sticks, Stones, Plant Fibers, or Apples. You will only find 1 item during each successful action of Foraging. 
+
+## Threats
+
+Threat encounters in The Neon Desert are unlike Combat in that they do not operate based on your Combat Skills, rather they are based on your equipped weapons and peripherals.
+
+You will encounter many dangers in The Neon Desert, not the least of which are wild and fearless animals and creatures in various locatoins. Unlike Combat Areas, encountered threats while Foraging are unique in that they don't normally pose a risk of death.
+
+They do however represent a very real threat of losing significant portions of the items in your inventory (the items you've already foraged), but they also offer you a chance to acquire rarer and more valuable items.
+
+### Wolves
+
+Wolves are rarely encountered in The Neon Desert, and when they are, they are most commonly found in The Wilderness.
+
+Fearsome and stlealthy, if you are not equiped with a weapon of some sort, any Wolf will pose a serious threat and you'll be forced to run, causing you to lose a significant portion of the Foraged items already in your inventory.
+
+If, however, you do have a weapon equiped (a Stone Dagger for example) You may easily slay the Wolf and obtain it's valuable Pelt.

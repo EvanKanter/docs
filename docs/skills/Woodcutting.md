@@ -2,7 +2,23 @@
 sidebar_position: 4
 ---
 
-# Woodcutting
+***
+
+> Mother said that the forest was life itself, and that they did not care. She said that they would cut it down. I did not believe her. I was wrong.
+>
+> — _from the Programmer's diary: The First Days_
+
+## Overview
+
+Woodcutting is a resource gathering skill. It requires the equipping of Axes and is performed in Forests, yielding Wood.
+
+## Mechanics
+
+Like all skills in The Neon Desert, Woodcutting operates on our Skill Action System (SA System). A Skill Action takes 1 minute, therefore during 1 hour of Woodcutting you will make 60 attempts to gather resources (Wood).
+
+
+
+
 
 Woodcutting is a resource gathering skill, and one of the first that you’ll use in The Neon Desert.
 
