@@ -104,7 +104,7 @@ Logs and Planks are both Resources. Logs possess an RLvl corresponding to the AL
 
 All crafted Items in The Neon Desert possess an Item Level (ILvl) corresponding to the RLvl from which they were crafted.
 
-Crafted Tools and Weapons possess any bonuses conferred by the ILvl of their component parts.
+Crafted Tools and Weapons possess any bonuses conferred by the ILvl and Item Category of their component parts.
 
 Wood items, like Axe Handles, for example, gain bonuses to Swing Speed based on their superior quality and lightness. These bonuses are Tiered and correspond to the ILvl from which they were made.
 
