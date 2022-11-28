@@ -10,49 +10,107 @@ sidebar_position: 4
 
 ## Overview
 
-Woodcutting is a resource gathering skill. It requires the equipping of Axes and is performed in Forests, yielding Wood.
+Woodcutting is a resource gathering skill which yields Wood in the form of Logs. Woodcutting requires the equipping of Axes and is performed in Locations called Forests.
+
+Wood is a valuable Resource and is used for many items, both utilities and weaponry.
 
 ## Mechanics
 
-Like all skills in The Neon Desert, Woodcutting operates on our Skill Action System (SA System). A Skill Action takes 1 minute, therefore during 1 hour of Woodcutting you will make 60 attempts to gather resources (Wood).
+Like all resource gathering Skills in The Neon Desert, Woodcutting operates on the Skill Action System (SAS) and functions in a corresponding Location, Forests.
 
+A Skill Action takes 1 minute, therefore during 1 hour of Woodcutting you will make 60 attempts to gather Wood.
 
+## Skill, Tier, Area, and Resource Levels
 
+Your Woodcutting Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to Area Level (ALvl) and Resource Level (RLvl). Your Woodcutting SLvl determines your Woodcutting TLvl, which in turn determines the ALvl which you may access and therefore the RLvl which you may gather.
 
+| Skill Level (SLvl) 	| Tier Level (TLvl) 	| Area Level (ALvl) 	| Resource Level (RLvl) 	|
+|--------------------	|-------------------	|-------------------	|-----------------------	|
+| 0.0 - 49.9         	| 1                 	| 1 (Cedar Forest)  	| 1 (Cedar Logs)        	|
+| 50.0 - 99.9        	| 2                 	| 2                 	| 2                     	|
+| 100.0 - 149.9      	| 3                 	| 3                 	| 3                     	|
+| 150.0 - 199.9      	| 4                 	| 4                 	| 4                     	|
 
-Woodcutting is a resource gathering skill, and one of the first that you’ll use in The Neon Desert.
+## Beginning Woodcutting
 
-Woodcutting requires the equipping of items (Axes) and, like all Skills in The Neon Desert, operates at a rate of 1 Action per minute, or 60 Actions per hour.
+In order to begin Woodcutting, you will need to equip yourself with an Axe. The only Axes available to you at the start of your journey are Stone Axes which must be Crafted via Foraged materials.
 
-Woodcutting is the skill you will use to acquire Logs, which come in a variety of Tiers.
+Items lose durability in The Neon Desert, so it is advisable to either craft multiple Stone Axes, or to possess surplus foraged materials in order to repair your Stone Axe regularly.
 
-To begin woodcutting, you’ll start with a Beginner Axe made of Foraged materials (Sticks, Stones, and Lashings from Plant Fibers).
+## Resource Generation
 
-Items degrade in The Neon Desert, so you’ll need to forage for many Sticks, Stones, and Plant Fibers to create multiple beginner Axes.
+Woodcutting will yield Wood in the form of Logs of an RLvl which corresponds to the ALvl in which you are Woodcutting.
 
-The Woodcutting skill is Tiered to give you access to multiple Tiers of Forests, each yeileding their corresponding Tier of Logs.
+The lowest ALvl Forest (ALvl 1) is the Cedar Forest which will yield the lowest RLvl (RLvl 1) Logs which are Cedar Logs.
 
-The first Forest in which you may cut wood is the Cedar Forest (a Tlvl 1 Forest). From Woodcutting Slvls 0-49.9 you’ll have access to the Cedar Forest. Woodcutting in the Cedar Forest will produce Cedar Logs.
+As mentioned above in the Mechanics section, a single Woodcutting Skill Action will take exactly 1 minute, and therefore during 1 hour of Woodcutting you will make 60 attempts to gather Logs.
 
-Upon reaching Woodcutting Slvl 50, you’ll have access to the Tlvl 2 Forest, the Maple Forest which yields Tlvl 2 Logs, Maple Logs.
+Not all attempts will be successful. Your success in Woodcutting depends on three variables: Your Woodcutting Skill Level (SLvl), your Woodcutting Tier Level (TLvl), and the Area Level (ALvl) in which you are Woodcutting.
 
-Logs may be used to create Axe Handles may be created from Logs. The Tlvl of Log used to create an Axe handle with determine it’s bonuses (increased item yield / increased durability).
+Within a Woodcutting TLvl, each complete Skill Point (1.0 Skill) provides a 2% chance to receive the corresponding RLvl Log, capped at a maximum of a 100% chance durring each Skill Action.
 
+## Resource Generation Examples
 
-## Locations
+### Skill, Area, and Resource Level Example
 
-## Tiers
+| Woodcutting SLvl 	| TLvl 	| ALvl 	| Chance to receive corresponding RLvl Log durring each Skill Action 	|
+|---	|---	|---	|---	|
+| 27.6 	| 1 	| 1 (Cedar Forest) 	| 54% chance for RLvl 1 Log (Cedar Log) 	|
+| 53.7 	| 2 	| 1 (Cedar Forest) 	| 100% chance for RLvl 1 Log (Cedar Log) 	|
+| 53.7 	| 2 	| 2 (ALvl 2 Forest) 	| 6% chance for RLvl 2 Log (RLvl 2 Log) 	|
+| 114.2 	| 3 	| 3 (ALvl 2 Forest) 	| 28% chance for RLvl 3 Log (RLvl 3 Log) 	|
 
-### Basic
-1	Cedar
-50	Maple
-100	Hickory
+### Skill and Resource Level Example - Comparative
 
-### Exotic
-110 Flamewood
-150 Bloodwood
-200	Ebony
+| Woodcutting SLvl 	| RLvl 1 chance 	| RLvl 2 chance 	| RLvl 3 chance 	| RLvl 4 chance 	|
+|------------------	|---------------	|---------------	|---------------	|---------------	|
+| 27.6             	| 54%           	| 0%            	| 0%            	| 0%            	|
+| 53.7             	| 100%          	| 6%            	| 0%            	| 0%            	|
+| 114.2            	| 100%          	| 100%          	| 28%           	| 0%            	|
+| 179.0            	| 100%          	| 100%          	| 100%          	| 58%           	|
 
-### Broken
-210	Crackling Wood
-…
+## Tier Level and Skill Gain Penalty
+:::caution Important!
+It is crucial to note that once you have reached a Tier Level, your ability to gain Skill Points by Woodcutting in the ALvl corresponding to the previous TLvl will be heavily penalized and eventually reach zero.
+:::
+
+For every 1 complete Skill Point (1.0 Skill) you are into a new TLvl, you will lose 10% of your Skill Gain per Skill Action from the ALvl corresponding to the previous Tier.
+
+See the example below in which between the SLvls 50.0 - 60.0 Woodcutting (TLvl 2 Woodcutting), the penalty for Woodcutting in an ALvl 1 Area is applied.
+
+| Woodcutting SLvl 	| Woodcutting TLvl 	| While Woodcutting in ALvl 1, the percentage of Skill you will gain 	|
+|---	|---	|---	|
+| 50.0 	| 2 	| 100% 	|
+| 51.0 	| 2 	| 90% 	|
+| 52.0 	| 2 	| 80% 	|
+| 53.0 	| 2 	| 70% 	|
+| 54.0 	| 2 	| 60% 	|
+| 55.0 	| 2 	| 50% 	|
+| 56.0 	| 2 	| 40% 	|
+| 57.0 	| 2 	| 30% 	|
+| 58.0 	| 2 	| 20% 	|
+| 59.0 	| 2 	| 10% 	|
+| 60.0 	| 2 	| 0% 	|
+
+As you can see from the table above, beyond SLvl 60.0 Woodcutting, you will no longer gain Skill Points by Woodcutting in an ALvl 1 Forest.
+
+## Axes
+
+Axes are the tools with which you may perform Woodcutting. Axes can be made of various materials and consist of two distinct parts: An Axe Handle, and an Axe Head.
+
+Axe Handles are made from Wood Planks, which themselves are made of Logs.
+
+Logs and Planks are both Resources. Logs possess an RLvl corresponding to the ALvl from which they were gathered, and Planks possess an RLvl corresponding to the Logs from which they were refined.
+
+All crafted Items in The Neon Desert possess an Item Level (ILvl) corresponding to the RLvl from which they were crafted.
+
+Crafted Tools and Weapons possess any bonuses conferred by the ILvl of their component parts.
+
+Wood items, like Axe Handles, for example, gain bonuses to Swing Speed based on their superior quality and lightness. These bonuses are Tiered and correspond to the ILvl from which they were made.
+
+As An example, an Axe made with a Cedar Axe Handle (which is ILvl 1 because Cedar Logs are RLvl 1, and Cedar Planks are therefore RLvl 1) will obtain a Wood ILvl 1 bonus of 10% Swing Speed Increase.
+
+You can read more about Item Recipes and their final bonuses based on their component parts in the Items section.
+
+Suffice it to say that it is advisable to craft any tools you are using out of the highest ILvl materials you have. An Axe made from a Cedar Axe Handle and a Copper Axe Head (Cedar Copper Axe) will have 10% bonuses to both Swing Speed and Durability.
+

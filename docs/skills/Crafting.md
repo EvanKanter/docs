@@ -22,4 +22,4 @@ The Crafting Table allows you to immediately combine your foraged materials into
 | Stone Axe     	| Sticks, Stone, Plant Fibers 	| A beginner axe with low durability to chop wood in Forests.                                           	|
 | Stone Pickaxe 	| Sticks, Stone, Plant Fibers 	| A beginner pickaxe with low durability to mine for ore in Mines.                                      	|
 | Leather Sack  	| Pelts, Plant Fibers         	| A bag to increase your carrying capacity, increasing the duration for which you may gather resources. 	|
-| Leather Sling 	| Leather Sack, Leather Sling 	| A humble ranged weapon, useful only during chance encounters with small animals in the Forest.        	|
+| Leather Sling 	| Pelts, Plant Fibers 	| A humble ranged weapon, useful only during chance encounters with small animals in the Forest.        	|
