@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 1
 ---
 
 ***
@@ -34,7 +34,7 @@ When you are ready, you will adventure into the Goblin Encampment where you will
 | [Exploration](Exploration.md) 	| Explore and discover new locations. 	|
 | [Cartography](Crafting.md) 	| Read Maps to find your way and create your own to sell on the Marketplace. 	|
 | [Smithing](Smithing.md) (Upcoming) 	| Smelt your ore into ingots and forge powerful tools, weapons, and armor. 	|
-| [Bowcraft & Fletching](Bowcraft_&_Fletching.md) (Upcoming) 	| Create deadly Bows and Arrows to hunt your enemies. 	|
+| [Bowcraft & Fletching](Bowcraft%20%26%20Fletching.md) (Upcoming) 	| Create deadly Bows and Arrows to hunt your enemies. 	|
 | [Swordsmanship](Swordsmanship.md) (Upcoming) 	| Wield razor sharp bladed weapons to slice through your enemies. 	|
 | [Macing](Macing.md) (Upcoming) 	| Heft pulverizing blunt weapons to crush your enemies. 	|
 | [Parrying](Parrying.md) (Upcoming) 	| Use a Shield to defend yourself against Melee, Ranged, and Magical attacks. 	|
