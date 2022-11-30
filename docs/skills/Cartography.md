@@ -2,22 +2,35 @@
 sidebar_position: 7
 ---
 
-# The study of maps
+## Overview
 
-Cartography is the skill which will allow players to decipher maps discovered in The Neon Desert, and also to create maps of their own.
+Cartography is the skill which will allow players to decipher maps discovered in The Neon Desert, and also to create maps of their own. Maps created by players may be sold on the Marketplace.
 
-Maps are tokens/nfts which allow a player to locate certain destinations in The Neon Desert. Found Maps must be deciphered, and doing so requires the Cartography skill.
+## Mechanics
 
-Maps may be found in Treasure Chests. Treasure Chests will be located in dungeons.
+Like all Skills in The Neon Desert, Cartography operates on the Skill Action System (SAS).
 
-Maps may also be created. If you have the requisite materials and the requisite cartography skill, maps may be created to mark the location of any area you wish.
+A Skill Action takes 1 minute, and therefore during 1 hour you will make either 60 attempts to decipher a Map (or Maps) or 60 attempts to draw a Map (or Maps).
 
-If you find a rare forest or mine, or a rare dungeon or encampment, you may create a map detailing its location and then sell the map on the Marketplace, allowing other players to access said location.
+## Skill, Tier, and Area Levels
 
-Cartography skill may be gained by deciphering maps. Your chance to decipher a map is based on your cartography skill level. An attempt at deciphering a map takes 1 action (1 minute). Failed attempts will result in skill gain, but the map will remain undeciphered.
+Your Cartography Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to the ALvl of a Map which you may decipher or to the ALvl of a Location to which you may draw a Map.
 
-Like all skills and their items, Maps and the Cartography skill are tiered. Cartography Slvl 0-49.9 will allow you to decipher and create Tlvl 1 Maps with varying degrees of success. Cartography Slvl 50-99.9 will allow Tlvl 2 Maps, so on and so forth.
+| Skill Level (SLvl) 	| Tier Level (TLvl) 	| Area Level of a Map you may decipher or of a Location to which you may draw a Map 	|
+|---	|---	|---	|
+| 0.0 - 49.9 	| 1 	| 1 	|
+| 50.0 - 99.9 	| 2 	| 2 	|
+| 100.0 - 149.9 	| 3 	| 3 	|
+| 150.0 - 199.9 	| 4 	| 4 	|
 
-There is no penalty for failing to decipher a Map. Even failed attempts will result in skill gain. There are, however, penalties for failing to draw a Map. Some of the requisite materials will be burned upon a failed attempt to draw a Map. Therefore, unless you have an abundance of Map making materials (paper, ink, pens), it is recommended that you focus on finding and deciphering maps from treasure chests to raise your Cartography skill level.
+## Beginning Cartography
 
-Each tier of item (Map) is represented by a 50 point distribution (Slvl 0-49.9). Each full skill point (1.0 skill) will add an additional 1% chance to decipher or create a map. Therefore, the maximum chance you will have to decipher or create a map will be 50%. You can see how this will take time, and it is in your best interest to raise your skill by deciphering maps rather than creating them, as failed attempts at Map creation will cost resources.
+There are two ways to use and gain Skill Points in Cartography: deciphering Maps and creating Maps.
+
+In order to begin using Cartography, you will need either undeciphered Maps (found throughout The Neon Desert - for example as loot in the Loot Chest after defeating a Goblin Encampment), or Paper, Feather Pen, and Ink in order to begin drawing your own Maps.
+
+### Deciphering Maps
+
+The Cartography Skill will allow you to decipher any Maps you may find throughout The Neon Desert. Maps may be found as Loot in various places.
+
+

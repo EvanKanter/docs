@@ -41,8 +41,33 @@ Your Exploration skill is broken into Tiers. Your Exploration Skill Level (SLvl)
 
 In order to begin Exploring, no equipment is required to use the Skill.
 
-## Location Discovery
+## Location Discovery Chance
 
 As mentioned above in the Mechanics section, a single Exploration Skill Action will take exactly 1 minute, and therefore during 1 hour of Exploration you will make 60 attempts to discover a new Location.
 
 Not all attempts will be successful. Your success in Woodcutting depends on three variables: Your Exploration Skill Level (SLvl), your Exploration Tier Level (TLvl), and the Area Level (ALvl) which you are able to discover.
+
+Within each Exploration TLvl, every 5 complete Skill Points (5.0 Skill) provides a 1% chance to discover a Location with an ALvl corresponding to that TLvl within a 24 hour period, maxing out at a 10% chance to discover a Location with an ALvl corresponding to that TLvl over a 24 hour period.
+
+## Location Discovery Chance Examples
+
+### Skill, Tier, and Area Level Example
+
+| Exploration SLvl 	| Exploration TLvl 	| Chance to find ALvl 1 Location within a 24 Hour Period 	|
+|------------------	|------------------	|--------------------------------------------------------	|
+| 15.2             	| 1                	| 3%                                                     	|
+| 22.7             	| 1                	| 4%                                                     	|
+| 43.2             	| 1                	| 8%                                                     	|
+| 50.0             	| 2                	| 10%                                                    	|
+
+### Skill, Tier, and Area Level Example - Comparative
+
+| Exploration SLvl 	| Exploration TLvl 	| ALvl 1 Location discovery chance over 24 hours 	| ALvl 2 Location discovery chance over 24 hours 	| ALvl 3 Location discovery chance over 24 hours 	| ALvl 4 Location discovery chance over 24 hours 	|
+|---	|---	|---	|---	|---	|---	|
+| 15.2 	| 1 	| 3% 	| 0% 	| 0% 	| 0% 	|
+| 58.9 	| 2 	| 10% 	| 1% 	| 0% 	| 0% 	|
+| 114.7 	| 1 	| 10% 	| 10% 	| 2% 	| 0% 	|
+| 192.2 	| 2 	| 10% 	| 10% 	| 10% 	| 8% 	|
+
+As you can see, the maximum percentage chance that you will have to discover a Location of a particular ALvl is 10% over a 24 hour period. At Exploration Skill Level 200, you will have a 10% chance to discover each individual ALvl (ALvls 1-4) which means that you will have a 40% chance to discover at least 1 location over that 24 hour period.
+
