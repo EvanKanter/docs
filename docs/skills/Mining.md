@@ -13,13 +13,13 @@ sidebar_position: 5
 Mining is a resource gathering skill which yields Metal in the form of Ore. Mining requires the equipping of Pickxes and is performed in Locations called Mines.
 
 Metal is a valuable Resource and is used for many items, both utilities and weaponry.
-
+***
 ## Mechanics
 
 Like all resource gathering Skills in The Neon Desert, Mining operates on the Skill Action System (SAS) and functions in a corresponding Location, Mines.
 
 A Skill Action takes 1 minute, therefore during 1 hour of Mining you will make 60 attempts to gather Ore.
-
+***
 ## Skill, Tier, Area, and Resource Levels
 
 Your Mining Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to Area Level (ALvl) and Resource Level (RLvl). Your Mining SLvl determines your Mining TLvl, which in turn determines the ALvl which you may access and therefore the RLvl which you may gather.
@@ -30,13 +30,13 @@ Your Mining Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to A
 | 50.0 - 99.9        	| 2                 	| 2                 	| 2                     	|
 | 100.0 - 149.9      	| 3                 	| 3                 	| 3                     	|
 | 150.0 - 199.9      	| 4                 	| 4                 	| 4                     	|
-
+***
 ## Beginning Mining
 
 In order to begin Mining, you will need to equip yourself with a Pickaxe. The only Pickaxes available to you at the start of your journey are Stone Pickaxes which must be Crafted via Foraged materials.
 
 Items lose durability in The Neon Desert, so it is advisable to either craft multiple Stone Pickaxes, or to possess surplus foraged materials in order to repair your Stone Pickaxe regularly.
-
+***
 ## Resource Generation
 
 Mining will yield Metal in the form of Ore of an RLvl which corresponds to the ALvl in which you are Mining.
@@ -48,7 +48,7 @@ As mentioned above in the Mechanics section, a single Mining Skill Action will t
 Not all attempts will be successful. Your success in Mining depends on three variables: Your Mining Skill Level (SLvl), your Mining Tier Level (TLvl), and the Area Level (ALvl) in which you are Mining.
 
 Within a Mining TLvl, each complete Skill Point (1.0 Skill) provides a 2% chance to receive the corresponding RLvl Ore, capped at a maximum of a 100% chance durring each Skill Action.
-
+***
 ## Resource Generation Examples
 
 ### Skill, Area, and Resource Level Example
@@ -68,7 +68,7 @@ Within a Mining TLvl, each complete Skill Point (1.0 Skill) provides a 2% chance
 | 53.7             	| 100%          	| 6%            	| 0%            	| 0%            	|
 | 114.2            	| 100%          	| 100%          	| 28%           	| 0%            	|
 | 179.0            	| 100%          	| 100%          	| 100%          	| 58%           	|
-
+***
 ## Tier Level and Skill Gain Penalty
 :::caution Important!
 It is crucial to note that once you have reached a Tier Level, your ability to gain Skill Points by Mining in the ALvl corresponding to the previous TLvl will be heavily penalized and eventually reach zero.
@@ -93,7 +93,7 @@ See the example below in which between the SLvls 50.0 - 60.0 Mining (TLvl 2 Mini
 | 60.0 	| 2 	| 0% 	|
 
 As you can see from the table above, beyond SLvl 60.0 Mining, you will no longer gain Skill Points by Mining in an ALvl 1 Mine.
-
+***
 ## Pickaxes
 
 Pickaxes are the tools with which you may perform Pickaxes. Pickaxes can be made of various materials and consist of two distinct parts: An Axe Handle, and a Pickaxe Head.

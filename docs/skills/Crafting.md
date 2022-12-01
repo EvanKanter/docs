@@ -9,7 +9,7 @@ _**Mother:** Yes… and not only their own misery. They shall make many things._
 ## Overview
 
 While Crafting may become a traditional Skill in the future, at launch Crafting is an immediately actionable ability which will allow you to create your first items and tools in The Neon Desert, and will NOT be based on Skill Points.
-
+***
 ## The Crafting Table
 
 The Crafting Table allows you to immediately combine your foraged materials into usable items and tools which you will need to continue your journey.

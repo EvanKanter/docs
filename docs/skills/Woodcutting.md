@@ -13,13 +13,13 @@ sidebar_position: 4
 Woodcutting is a resource gathering skill which yields Wood in the form of Logs. Woodcutting requires the equipping of Axes and is performed in Locations called Forests.
 
 Wood is a valuable Resource and is used for many items, both utilities and weaponry.
-
+***
 ## Mechanics
 
 Like all resource gathering Skills in The Neon Desert, Woodcutting operates on the Skill Action System (SAS) and functions in a corresponding Location, Forests.
 
 A Skill Action takes 1 minute, therefore during 1 hour of Woodcutting you will make 60 attempts to gather Wood.
-
+***
 ## Skill, Tier, Area, and Resource Levels
 
 Your Woodcutting Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to Area Level (ALvl) and Resource Level (RLvl). Your Woodcutting SLvl determines your Woodcutting TLvl, which in turn determines the ALvl which you may access and therefore the RLvl which you may gather.
@@ -30,13 +30,13 @@ Your Woodcutting Skill Level (SLvl) is broken into Tiers (TLvl) which correspond
 | 50.0 - 99.9        	| 2                 	| 2                 	| 2                     	|
 | 100.0 - 149.9      	| 3                 	| 3                 	| 3                     	|
 | 150.0 - 199.9      	| 4                 	| 4                 	| 4                     	|
-
+***
 ## Beginning Woodcutting
 
 In order to begin Woodcutting, you will need to equip yourself with an Axe. The only Axes available to you at the start of your journey are Stone Axes which must be Crafted via Foraged materials.
 
 Items lose durability in The Neon Desert, so it is advisable to either craft multiple Stone Axes, or to possess surplus foraged materials in order to repair your Stone Axe regularly.
-
+***
 ## Resource Generation
 
 Woodcutting will yield Wood in the form of Logs of an RLvl which corresponds to the ALvl in which you are Woodcutting.
@@ -48,7 +48,7 @@ As mentioned above in the Mechanics section, a single Woodcutting Skill Action w
 Not all attempts will be successful. Your success in Woodcutting depends on three variables: Your Woodcutting Skill Level (SLvl), your Woodcutting Tier Level (TLvl), and the Area Level (ALvl) in which you are Woodcutting.
 
 Within a Woodcutting TLvl, each complete Skill Point (1.0 Skill) provides a 2% chance to receive the corresponding RLvl Log, capped at a maximum of a 100% chance durring each Skill Action.
-
+***
 ## Resource Generation Examples
 
 ### Skill, Area, and Resource Level Example
@@ -68,7 +68,7 @@ Within a Woodcutting TLvl, each complete Skill Point (1.0 Skill) provides a 2% c
 | 53.7             	| 100%          	| 6%            	| 0%            	| 0%            	|
 | 114.2            	| 100%          	| 100%          	| 28%           	| 0%            	|
 | 179.0            	| 100%          	| 100%          	| 100%          	| 58%           	|
-
+***
 ## Tier Level and Skill Gain Penalty
 :::caution Important!
 It is crucial to note that once you have reached a Tier Level, your ability to gain Skill Points by Woodcutting in the ALvl corresponding to the previous TLvl will be heavily penalized and eventually reach zero.
@@ -93,7 +93,7 @@ See the example below in which between the SLvls 50.0 - 60.0 Woodcutting (TLvl 2
 | 60.0 	| 2 	| 0% 	|
 
 As you can see from the table above, beyond SLvl 60.0 Woodcutting, you will no longer gain Skill Points by Woodcutting in an ALvl 1 Forest.
-
+***
 ## Axes
 
 Axes are the tools with which you may perform Woodcutting. Axes can be made of various materials and consist of two distinct parts: An Axe Handle, and an Axe Head.
