@@ -132,7 +132,7 @@ Note that the following time table **DOES NOT** factor in Recompiles, wich you m
 
 :::
 
-| Skill   Level (Slvl) 	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Lvl 	| Time to Reach   Skill Lvl (Hours) 	| Time to Reach   Skill Lvl (Days) 	|
+| Skill   Level  	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Level 	| Time to Reach   Skill Level (Hours) 	| Time to Reach   Skill Level (Days) 	|
 |:---:	|:---:	|:---:	|:---:	|:---:	|
 | 50 	| 10 	| 5000 	| 83.33 	| 3.47 	|
 | 100 	| 10 	| 10000 	| 166.67 	| 6.94 	|
@@ -147,7 +147,7 @@ In the below table, requisite skilling time to reach a particular skill level is
 
 :::
 
-| Skill   Level (Slvl) 	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Lvl 	| Time to Reach   Skill Lvl (Hours) 	| Time to Reach   Skill Lvl (Days) 	| Time to Reach   Skill Lvl with Recompiles factored (Days) 	|
+| Skill   Level  	| Actions to gain   0.1 Skill point 	| Total Actions to   Reach Skill Level 	| Time to Reach   Skill Level (Hours) 	| Time to Reach   Skill Level (Days) 	| Time to Reach   Skill Level with Recompiles factored (Days) 	|
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | 100 	| 10 	| 10000 	| 166.67 	| 6.94 	| 6.94 	|
 | 110 	| 10 	| 11000 	| 183.33 	| 7.64 	| 14.58 	|

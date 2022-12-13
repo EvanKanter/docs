@@ -29,7 +29,7 @@ You may learn more about these items and their uses in the [Craftinng](Crafting.
 ***
 ## Mechanics
 
-Like all skills in The Neon Desert, Foraging operates on our Skill Action System (SA System). A Skill Action takes 1 minute, therefore during 1 hour of Foraging you will make 60 attempts to gather resources.
+For information about specific Skill Mechanics, visit the [Skill Page](Skills.md)
 ***
 ## Locations
 

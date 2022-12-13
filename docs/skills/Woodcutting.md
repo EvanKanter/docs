@@ -16,15 +16,15 @@ Wood is a valuable Resource and is used for many items, both utilities and weapo
 ***
 ## Mechanics
 
-Like all resource gathering Skills in The Neon Desert, Woodcutting operates on the Skill Action System (SAS) and functions in a corresponding Location, Forests.
+For information about specific Skill Mechanics, visit the [Skill Page](Skills.md)
 
 A Skill Action takes 1 minute, therefore during 1 hour of Woodcutting you will make 60 attempts to gather Wood.
 ***
 ## Skill, Tier, Area, and Resource Levels
 
-Your Woodcutting Skill Level (SLvl) is broken into Tiers (TLvl) which correspond to Area Level (ALvl) and Resource Level (RLvl). Your Woodcutting SLvl determines your Woodcutting TLvl, which in turn determines the ALvl which you may access and therefore the RLvl which you may gather.
+Your Woodcutting Skill Level is broken into Tiers which correspond to Area Level and Resource Level. Your Woodcutting Skill Level determines your Woodcutting Tier Level, which in turn determines the Area Level which you may access and therefore the Resource Level which you may gather.
 
-| Skill Level (SLvl) 	| Tier Level (TLvl) 	| Area Level (ALvl) 	| Resource Level (RLvl) 	|
+| Skill Level 	| Tier Level 	| Area Level 	| Resource Level 	|
 |--------------------	|-------------------	|-------------------	|-----------------------	|
 | 0.0 - 49.9         	| 1                 	| 1 (Cedar Forest)  	| 1 (Cedar Logs)        	|
 | 50.0 - 99.9        	| 2                 	| 2                 	| 2                     	|
@@ -39,30 +39,30 @@ Items lose durability in The Neon Desert, so it is advisable to either craft mul
 ***
 ## Resource Generation
 
-Woodcutting will yield Wood in the form of Logs of an RLvl which corresponds to the ALvl in which you are Woodcutting.
+Woodcutting will yield Wood in the form of Logs of an Resource Level which corresponds to the Area Level in which you are Woodcutting.
 
-The lowest ALvl Forest (ALvl 1) is the Cedar Forest which will yield the lowest RLvl (RLvl 1) Logs which are Cedar Logs.
+The lowest Area Level Forest (1) is the Cedar Forest which will yield the lowest Resource Level (1) Logs which are Cedar Logs.
 
 As mentioned above in the Mechanics section, a single Woodcutting Skill Action will take exactly 1 minute, and therefore during 1 hour of Woodcutting you will make 60 attempts to gather Logs.
 
-Not all attempts will be successful. Your success in Woodcutting depends on three variables: Your Woodcutting Skill Level (SLvl), your Woodcutting Tier Level (TLvl), and the Area Level (ALvl) in which you are Woodcutting.
+Not all attempts will be successful. Your success in Woodcutting depends on three variables: Your Woodcutting Skill Level, your Woodcutting Tier Level, and the Area Level in which you are Woodcutting.
 
-Within a Woodcutting TLvl, each complete Skill Point (1.0 Skill) provides a 2% chance to receive the corresponding RLvl Log, capped at a maximum of a 100% chance durring each Skill Action.
+Within a Woodcutting Tier Level, each complete Skill Point (1.0 Skill) provides a 2% chance to receive the corresponding Resource Level Log, capped at a maximum of a 100% chance durring each Skill Action.
 ***
 ## Resource Generation Examples
 
 ### Skill, Area, and Resource Level Example
 
-| Woodcutting SLvl 	| TLvl 	| ALvl 	| Chance to receive corresponding RLvl Log durring each Skill Action 	|
+| Skill Level 	| Tier Level 	| Area Level 	| Chance to receive corresponding Resource Level Log durring each Skill Action 	|
 |---	|---	|---	|---	|
-| 27.6 	| 1 	| 1 (Cedar Forest) 	| 54% chance for RLvl 1 Log (Cedar Log) 	|
-| 53.7 	| 2 	| 1 (Cedar Forest) 	| 100% chance for RLvl 1 Log (Cedar Log) 	|
-| 53.7 	| 2 	| 2 (ALvl 2 Forest) 	| 6% chance for RLvl 2 Log (RLvl 2 Log) 	|
-| 114.2 	| 3 	| 3 (ALvl 2 Forest) 	| 28% chance for RLvl 3 Log (RLvl 3 Log) 	|
+| 27.6 	| 1 	| 1 (Cedar Forest) 	| 54% chance for Resource Level 1 Log (Cedar Log) 	|
+| 53.7 	| 2 	| 1 (Cedar Forest) 	| 100% chance for Resource Level 1 Log (Cedar Log) 	|
+| 53.7 	| 2 	| 2 (Area Level 2 Forest) 	| 6% chance for Resrouce Level 2 Log (Resource Level 2 Log) 	|
+| 114.2 	| 3 	| 3 (Area Level 2 Forest) 	| 28% chance for Resource Level 3 Log (Resource Level 3 Log) 	|
 
 ### Skill and Resource Level Example - Comparative
 
-| Woodcutting SLvl 	| RLvl 1 chance 	| RLvl 2 chance 	| RLvl 3 chance 	| RLvl 4 chance 	|
+| Skill Level 	| Resrouce Level 1 chance 	| Resrouce Level 2 chance 	| Resource Level 3 chance 	| Resource Level 4 chance 	|
 |------------------	|---------------	|---------------	|---------------	|---------------	|
 | 27.6             	| 54%           	| 0%            	| 0%            	| 0%            	|
 | 53.7             	| 100%          	| 6%            	| 0%            	| 0%            	|
@@ -71,14 +71,14 @@ Within a Woodcutting TLvl, each complete Skill Point (1.0 Skill) provides a 2% c
 ***
 ## Tier Level and Skill Gain Penalty
 :::caution Important!
-It is crucial to note that once you have reached a Tier Level, your ability to gain Skill Points by Woodcutting in the ALvl corresponding to the previous TLvl will be heavily penalized and eventually reach zero.
+It is crucial to note that once you have reached a Tier Level, your ability to gain Skill Points by Woodcutting in the Area Level corresponding to the previous Tier Level will be heavily penalized and eventually reach zero.
 :::
 
-For every 1 complete Skill Point (1.0 Skill) you are into a new TLvl, you will lose 10% of your Skill Gain per Skill Action from the ALvl corresponding to the previous Tier.
+For every 1 complete Skill Point (1.0 Skill) you are into a new Tier Level, you will lose 10% of your Skill Gain per Skill Action from the Area Level corresponding to the previous Tier.
 
-See the example below in which between the SLvls 50.0 - 60.0 Woodcutting (TLvl 2 Woodcutting), the penalty for Woodcutting in an ALvl 1 Area is applied.
+See the example below in which between the Skill Levels 50.0 - 60.0 Woodcutting (Tier Level 2 Woodcutting), the penalty for Woodcutting in an Area Level 1 Area is applied.
 
-| Woodcutting SLvl 	| Woodcutting TLvl 	| While Woodcutting in ALvl 1, the percentage of Skill you will gain 	|
+| Skill Level 	| Tier Level 	| While Woodcutting in Area Level 1, the percentage of Skill you will gain 	|
 |---	|---	|---	|
 | 50.0 	| 2 	| 100% 	|
 | 51.0 	| 2 	| 90% 	|
@@ -92,7 +92,7 @@ See the example below in which between the SLvls 50.0 - 60.0 Woodcutting (TLvl 2
 | 59.0 	| 2 	| 10% 	|
 | 60.0 	| 2 	| 0% 	|
 
-As you can see from the table above, beyond SLvl 60.0 Woodcutting, you will no longer gain Skill Points by Woodcutting in an ALvl 1 Forest.
+As you can see from the table above, beyond Skill Level 60.0 Woodcutting, you will no longer gain Skill Points by Woodcutting in an Area Level 1 Forest.
 ***
 ## Axes
 
@@ -100,17 +100,17 @@ Axes are the tools with which you may perform Woodcutting. Axes can be made of v
 
 Axe Handles are made from Wood Planks, which themselves are made of Logs.
 
-Logs and Planks are both Resources. Logs possess an RLvl corresponding to the ALvl from which they were gathered, and Planks possess an RLvl corresponding to the Logs from which they were refined.
+Logs and Planks are both Resources. Logs possess a Resource Level corresponding to the Area Level from which they were gathered, and Planks possess an Resource Level corresponding to the Logs from which they were refined.
 
-All crafted Items in The Neon Desert possess an Item Level (ILvl) corresponding to the RLvl from which they were crafted.
+All crafted Items in The Neon Desert possess an Item Level corresponding to the Resource Level from which they were crafted.
 
-Crafted Tools and Weapons possess any bonuses conferred by the ILvl and Item Category of their component parts.
+Crafted Tools and Weapons possess any bonuses conferred by the Item Level and Item Category of their component parts.
 
-Wood items, like Axe Handles, for example, gain bonuses to Swing Speed based on their superior quality and lightness. These bonuses are Tiered and correspond to the ILvl from which they were made.
+Wood items, like Axe Handles, for example, gain bonuses to Swing Speed based on their superior quality and lightness. These bonuses are Tiered and correspond to the Item Level from which they were made.
 
-As An example, an Axe made with a Cedar Axe Handle (which is ILvl 1 because Cedar Logs are RLvl 1, and Cedar Planks are therefore RLvl 1) will obtain a Wood ILvl 1 bonus of 10% Swing Speed Increase.
+As An example, an Axe made with a Cedar Axe Handle (which is Item Level 1 because Cedar Logs are Resource Level 1, and Cedar Planks are therefore Resource Level 1) will obtain a Wood Item Level 1 bonus of 10% Swing Speed Increase.
 
 You can read more about Item Recipes and their final bonuses based on their component parts in the Items section.
 
-Suffice it to say that it is advisable to craft any tools you are using out of the highest ILvl materials you have. An Axe made from a Cedar Axe Handle and a Copper Axe Head (Cedar Copper Axe) will have 10% bonuses to both Swing Speed and Durability.
+Suffice it to say that it is advisable to craft any tools you are using out of the highest Item Level materials you have. An Axe made from a Cedar Axe Handle and a Copper Axe Head (Cedar Copper Axe) will have 10% bonuses to both Swing Speed and Durability.
 
