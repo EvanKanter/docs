@@ -1,31 +1,31 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Neon Desert',
-  tagline: 'where anything can happen...',
-  url: 'https://theneondesert.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'TheNeonDesert', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  title: "The Neon Desert",
+  tagline: "where anything can happen...",
+  url: "https://theneondesert.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "TheNeonDesert", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/TheNeonDesert/docs/tree/master/',
-          routeBasePath: '/'
+          editUrl: "https://github.com/TheNeonDesert/docs/tree/master/",
+          routeBasePath: "/",
         },
         blog: false,
         // blog: {
@@ -35,7 +35,7 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -47,65 +47,56 @@ const config = {
       navbar: {
         // title: 'The Neon Desert',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png'
+          alt: "The Neon Desert",
+          src: "img/logo.png",
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            label: 'Homepage',
-            href: 'https://theneondesert.com'
-          }
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Docs",
+          // },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "The Neon Desert",
             items: [
               {
-                label: 'Intro',
-                to: '/',
+                label: "Homepage",
+                href: "https://theneondesert.com",
               },
               {
-                label: 'Roadmap',
-                to: '/9%20roadmap',
+                label: "Play Game",
+                href: "https://game.theneondesert.com",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/TheNeonDesert",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/V7nxNN3DYh',
+                label: "Discord",
+                href: "https://discord.gg/V7nxNN3DYh",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/theneondesert',
+                label: "Twitter",
+                href: "https://twitter.com/theneondesert",
               },
               {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/TheNeonDesert',
+                label: "Reddit",
+                href: "https://www.reddit.com/r/TheNeonDesert",
               },
               {
-                label: 'Facebook',
-                href: 'https://www.facebook.com/TheNeonDesert',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/TheNeonDesert',
+                label: "Facebook",
+                href: "https://www.facebook.com/TheNeonDesert",
               },
             ],
           },
@@ -115,6 +106,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };

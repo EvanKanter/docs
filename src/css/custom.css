@@ -5,6 +5,14 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* FONTS */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/static/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -14,11 +22,13 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --doc-sidebar-width: 220px !important; /*300px;*/
+
+  --ifm-font-family-monospace: "Montserrat";
+  --ifm-font-family-base: "Montserrat";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -35,6 +45,86 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* CUSTOM COLORS */
+
+:root {
+  --black: #000000;
+  --gray-600: #3b3d43;
+  --gray-300: #686c78;
+  --gray-200: #9fa3af;
+  --gray-50: #cfd3df;
+  --white: #fff;
+  --teal-600: #224659;
+  --teal-500: #28607c;
+  --turoquise-500: #265866;
+  --teal-400: #22738f;
+  --teal-250: #5798b5;
+  --teal-200: #85b1c8;
+  --turoquise-400: #1f7179;
+  --turoquise-200: #5f9487;
+  --turoquise-100: #93ab90;
+  --green-150: #bab97c;
+  --green-100: #d6c064;
+  --yellow-400: #e9c048;
+  --orange-400: #e88954;
+  --orange-300: #f5ac4b;
+  --salmon-400: #d66d69;
+  --pink-500: #c24370;
+  --magenta-500: #9e4472;
+  --purple-500: #753e63;
+  --brown-600: #513c3b;
+  --brown-300: #806c6a;
+  --brown-200: #bda8a0;
+  --cream-50: #fcf3eb;
+  --off-white: #f8faff;
+  --page-backround: #161f25;
+}
+
+/* MAIN */
+
+main {
+  background-color: var(--page-backround);
+  color: var(--white);
+}
+
+/* HEADER */
+
+.navbar__logo {
+  height: 50px;
+  margin-top: -4px;
+}
+
+.navbar--fixed-top {
+  box-shadow: 0 2px 37px 0 rgba(87, 152, 181, 0.6);
+  border: solid 1px var(--teal-500);
+  background-color: var(--black);
+}
+
+/* MENU */
+
+.menu {
+  background-color: var(--page-backround);
+}
+.menu__link {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1.14px;
+  color: var(--teal-250);
+}
+.menu__link--active {
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--page-backround);
+  color: var(--white);
 }
