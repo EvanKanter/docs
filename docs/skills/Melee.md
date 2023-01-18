@@ -4,7 +4,7 @@ sidebar_position: 10
 
 ## Overview
 
-Melee is a combat skill which will enable you to engage with your enemies at close range. Melee’s primary stat is Strength (Str)
+Melee is a combat skill which will enable you to engage with your enemies at close range. The Melee primary stat is Strength (Str).
 
 ***
 
