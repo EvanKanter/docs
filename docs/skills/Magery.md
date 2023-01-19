@@ -37,7 +37,7 @@ Combat Skills are used automatically when engaging in a Combat Encounter. Combat
 
 | Skill Level   	| Tier Level 	| Combat Area       	| Number of Enemies 	|
 |---------------	|------------	|-------------------	|-------------------	|
-| 0.0 - 49.9    	| 1          	| Goblin Encampment 	| 8 - 12            	|
-| 50.0 - 99.9   	| 2          	| Undead Graveyard  	| 14 - 16           	|
-| 100.0 - 149.9 	| 3          	| Unexplored Cave   	| 18 - 20           	|
-| 150.0 - 199.9 	| 4          	| Tower Dungeon     	| 22 - 24           	|
+| 0.0 - 49.9    	| 1          	| Goblin [Encampment](../locations/Encampments.md) 	| 8 - 12            	|
+| 50.0 - 99.9   	| 2          	| Undead [Graveyard](../locations/Graveyards.md)  	| 14 - 16           	|
+| 100.0 - 149.9 	| 3          	| Unexplored [Cave](../locations/Caves.md)   	| 18 - 20           	|
+| 150.0 - 199.9 	| 4          	| Tower [Dungeon](../locations/Dungeons.md)     	| 22 - 24           	|
